@@ -13,4 +13,8 @@ public class Prueba {
     public int sumar() {
         return atributo1 + atributo2 + atributo3;
     }
+
+    public int restar() {
+        return  atributo2 - atributo1;
+    }
 }

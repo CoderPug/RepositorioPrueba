@@ -4,5 +4,8 @@ public class Main {
 
         Prueba prueba = new Prueba(1, 2, 3);
         System.out.println(prueba.sumar());
+
+        System.out.println(prueba.restar());
+
     }
 }
