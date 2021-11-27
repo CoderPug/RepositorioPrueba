@@ -15,4 +15,8 @@ public class Prueba {
     public int restar() {
         return  atributo2 - atributo1;
     }
+
+    public int multiplicar() {
+        return atributo1 * atributo2;
+    }
 }
