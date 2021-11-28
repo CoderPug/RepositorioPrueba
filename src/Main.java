@@ -5,9 +5,11 @@ public class Main {
         Prueba prueba = new Prueba(1, 2, 3, "Hola", " ", "Mundo");
 
         System.out.println("Sumar:");
+        System.out.println("=====");
         System.out.println(prueba.sumar());
 
         System.out.println("Restar:");
+        System.out.println("=====");
         System.out.println(prueba.restar());
 
         System.out.println("Multiplicar:");
