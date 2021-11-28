@@ -3,19 +3,12 @@ public class Prueba {
     private int atributo1;
     private int atributo2;
     private int atributo3;
-
-    private String atributo4;
-    private String atributo5;
-    private String atributo6;
     private String atributo7;
 
-    public Prueba(int atributo1, int atributo2, int atributo3, String atributo4, String atributo5, String atributo6, String atributo7) {
+    public Prueba(int atributo1, int atributo2, int atributo3, String atributo7) {
         this.atributo1 = atributo1;
         this.atributo2 = atributo2;
         this.atributo3 = atributo3;
-        this.atributo4 = atributo4;
-        this.atributo5 = atributo5;
-        this.atributo6 = atributo6;
         this.atributo7 = atributo7;
     }
 
@@ -23,12 +16,8 @@ public class Prueba {
         return atributo1 + atributo2 + atributo3;
     }
 
-    public String concatenar() {
-        return atributo4 + atributo5 + atributo6 + atributo7;
-    }
-
     public String concatenar2() {
-        return atributo6 + "-" + atributo7;
+        return "-" + atributo7;
     }
 
     public int restar() {
